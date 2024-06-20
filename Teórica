@@ -1,0 +1,57 @@
+Escrita:
+Para que serve o MVVM?
+
+R: É um padrão de arquitetura que faz uma divisão lógica entre o Model, View e ViewModel
+
+O que é o MVVM Community Toolkit?
+
+R: É uma coleção de bibliotecas e ferramentas que ajudam na adição do MVVM em aplicativos .NET
+
+Para quê serve o arquivo appShell? Como adicionar uma view para ser exibida no lugar da main page?
+
+R: O appShell é usado para definir a estrutura de navegação do aplicativo, para adicionar:
+
+
+Para que serve <TabBar> no appshell?
+
+R: Serve para organizar e exibir diversas seções ou funcionalidades principais do aplicativo nas abas posicionadas na parte inferior da interface.
+
+Em aula, como instalamos pacotes usando Nuget no C#?
+
+R: Você precisa abrir um novo projeto no visual studio, selecionar Projeto > Gerenciar pacotes do NuGet, escolher a origem do pacote, pesquisar e instalar o pacote que você quer
+
+O que é o Binding? Em que arquivo criamos os bindings?
+
+R: Binding é uma técnica utilizada em MVVM que conecta objetos fazendo que quando algo for alterado em um deles, também altera nos outros
+Criamos as Binding normalmente em arquivos de definição da interface do usuário
+
+O que é um Command?
+
+R: É um padrão de projeto comportamental que converte solicitações ou operações simples em objetos
+
+O que é o Binding context? Escreva como associamos o binding context a classe ViewModel
+
+R: Binding context define objetos de dados os quais a UI está vinculada. Para associa-los:
+Definir ViewModel
+Associar ao XAML
+
+Para que serve a ViewModel?
+
+R: É um intermediário entre a View e o Model que faz a ligação de dados, lógica de apresentação e notifica as mudanças
+
+Qual a diferença entre construir uma view no MVVM e fora do MVVM?
+
+R: O MVVM oferece uma abordagem mais organizada e testável para construir as views
+  Fora do MVVM você tem mais liberdade para construir o seu codígo
+
+O que quer dizer que um atributo é uma propriedade observável? [Observable Propriety]?
+
+R: Quer dizer que quando algo for mudado nele atualiza automaticamente os dados na ViewModel
+
+Quando criamos uma observable Property, que cuidado devemos ter com os atributos?
+
+R: É preciso ter cuiadado com
+  A Infraestrutura INotifyPropertyChanged
+  O Nome da propriedade gerada
+  A Visibilidade do campo  
+  E a Execução de código após alterações  
